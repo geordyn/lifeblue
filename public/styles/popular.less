@@ -1,0 +1,126 @@
+///////// Global Colors /////////
+@white: #fff;
+@coral: rgba(249, 80, 80, 0.83);
+@transpwhite: rgba(255,255,255,0.95);
+@shadow: #4b4b4b;
+@gray: #999;
+@beat: #131824; /////////////////////////////////
+.mobile-archive {
+  background: @beat;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 1.1em;
+  margin-bottom: 1em;
+  font-size: 0.5em;
+  ul {
+    margin: auto;
+    li {
+      background: @beat;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+.container {
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.1);
+  background-color: @transpwhite;
+}
+.main-archives-cont {
+  display: none;
+  margin-bottom: 1em;
+}
+/* Archives */
+.archive-links {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  min-height: 70px;
+  background: @transpwhite;
+}
+.archive-content {
+  flex: 1;
+  background: @transpwhite;
+  padding: 2em;
+  text-align: center;
+  ul {
+    list-style: none;
+    color: @beat;
+    .odd {
+      background: rgba(214, 214, 214, 0.22);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+    li {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 1.2em;
+      span {
+        display: inline-block;
+        cursor: pointer;
+        color: @coral;
+      }
+      a {
+        color: @gray;
+      }
+    }
+  }
+  .hash {
+    color: @coral;
+  }
+  .hashtags {
+    list-style: none;
+    a {
+      cursor: pointer;
+    }
+  }
+  .years {
+    list-style: none;
+    text-align: center;
+    a {
+      cursor: pointer;
+    }
+  }
+}
+.archive-links p {
+  flex: 1;
+  text-transform: lowercase;
+  font-size: 14px;
+  padding: 20px;
+  margin: 0;
+}
+.archives {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.archives li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.archives li {
+  background: @gray;
+  color: #fff;
+  display: block;
+  padding: 15px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.archive-title {
+  width: 33.3%;
+  text-align: center;
+}
+@media all and (min-width: 700px) {
+  .main-archives-cont {
+    display: block;
+  }
+  .mobile-archive {
+    display: none;
+  }
+}

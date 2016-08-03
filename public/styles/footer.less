@@ -1,0 +1,35 @@
+///////// Global Colors /////////
+@white: #fff;
+@coral: rgba(249, 80, 80, 0.83);
+@transpwhite: rgba(255,255,255,0.95);
+@shadow: #4b4b4b;
+@gray: #999;
+@beat: #131824;
+
+/////////////////////////////////
+
+.footsie {
+  background: @coral;
+  bottom: 0;
+  color: @transpwhite;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  cursor: default;
+  .middleFooter  {
+      margin: 0 auto;
+      padding: 2em;
+  }
+  p {
+    padding-top: 1em;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .footsie{
+      padding: 0px;
+      p {
+          padding: 0px;
+      }
+  }
+}

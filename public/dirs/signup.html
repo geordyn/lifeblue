@@ -1,0 +1,20 @@
+<div class="signup">
+
+    <div class="hide-signup">
+    <a ng-hide="toggleSignup" ng-click="toggleSignup = !toggleSignup"><i class="fa fa-caret-down fa-3x" aria-hidden="true"></i></a>
+    <a ng-show="toggleSignup" ng-click="toggleSignup = !toggleSignup"><i class="fa fa-times fa-3x" aria-hidden="true"></i></a>
+    </div>
+
+    <form class="signup-form fade" ng-if="toggleSignup">
+  <span>Don't Miss a Blog Post!</span>
+  <p>Get our new posts sent straight to your email. No spam - pinky promise.</p>
+  <div class="info">
+    <input class="inputLeft" type="text" placeholder="Your Name">
+    <input class="inputLeft" type="email" placeholder="Your Email">
+  </div>
+  <input type="submit" value="Subscribe">
+</form>
+
+
+
+</div>

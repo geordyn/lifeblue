@@ -1,0 +1,23 @@
+{
+  "name": "lifeblue",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "less": "^2.7.1"
+  }
+}

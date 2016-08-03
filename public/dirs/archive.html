@@ -1,0 +1,52 @@
+<div class="mobile-archive">
+  <ul class='archives m'>
+    <li class='archive-title reg'>Most Viewed</a>
+    </li>
+    <li class='archive-title reg'>Most Commented</a>
+    </li>
+    <li class='archive-title reg'>Most Shared</a>
+    </li>
+  </ul>
+  <div class="container">
+
+  </div>
+</div>
+
+<div class="main-archives-cont">
+
+  <ul class='archives'>
+    <li class='archive-title reg'>Most Viewed</a>
+    </li>
+    <li class='archive-title reg'>Most Commented</a>
+    </li>
+    <li class='archive-title reg'>Most Shared</a>
+    </li>
+  </ul>
+  <div class="container">
+
+    <div class='archive-links'>
+
+      <div class='archive-content'>
+        <ul ng-repeat="article in archives | orderBy: 'views': true" ng-init="parseObj(article)">
+          <li ng-class-odd=" 'odd' ">{{article.title}}
+            <br><a>{{article.views}} views</a> <span>Read More...</span></li>
+        </ul>
+      </div>
+
+      <div class='archive-content'>
+        <ul ng-repeat="article in archives | orderBy: 'comments': true" ng-init="parseObj(article)">
+          <li ng-class-odd=" 'odd' ">{{article.title}}
+            <br><a>{{article.comments}} comments</a> <span>Read More...</span></li>
+        </ul>
+      </div>
+
+      <div class='archive-content'>
+        <ul ng-repeat="article in archives | orderBy: 'shares': true" ng-init="parseObj(article)">
+          <li ng-class-odd=" 'odd' ">{{article.title}}
+            <br><a>{{article.shares}} shares</a> <span>Read More...</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
