@@ -9,12 +9,13 @@
 .card {
   width: 90vw;
   min-height: 400px;
-  padding: 30px;
+  padding: 1em;
   background-size: cover;
   margin: 20px auto auto;
   transition: 0.3s ease;
   box-shadow: 0 1px 1px rgba(0,0,0,0.3);
   position: relative;
+  overflow: hidden;
   &:hover {
       cursor: pointer;
   }
@@ -44,7 +45,7 @@
   // transition: 0.5s ease-in-out;
   font-family: raleway, arial, sans-serif;
   text-transform: uppercase;
-  font-size: 3.3rem;
+  font-size: 3rem;
   a {
     color: white;
     text-decoration: none;
@@ -75,11 +76,12 @@ span {
 // MOBILE @media for column not row
 @media screen and (min-width: 70em) and (max-width: 90em) {
     .card {
-        width: 40vw;
+        width: 30vw;
     }
     .articles-cont {
         flex-direction: row;
     }
+
 }
 
 
@@ -87,12 +89,16 @@ span {
 @media screen and (min-width: 90em) {
     .card {
         width: 30vw;
+        padding: 30px;
     }
     .articles-cont {
         flex-direction: row;
     }
 }
-@media screen and (min-width: 70em){
+@media screen and (min-width: 60em){
+    .card {
+        padding: 30px;
+    }
     .entry-title {
       background: linear-gradient(to right,rgba(255,255,255,0) 50%,rgba(249, 80, 80, 0.83) 50%);
       background-size: 200%;

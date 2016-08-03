@@ -42,7 +42,7 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2016"
 
   }, {
-    title: "Are You Getting the Most Out of Technology?",
+    title: "Get the Most Out of Tech",
     author: "Kevin Spacey",
     date: "12 July 2013",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
@@ -54,7 +54,7 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2013"
 
   }, {
-    title: "What Employers Want That You Don't Have",
+    title: "Millenials and Business",
     author: "Kevin Spacey",
     date: "12 July 2012",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
@@ -90,7 +90,7 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2012"
 
   }, {
-    title: "Upcoming Shoe Trends 2017",
+    title: "Upcoming Shoe Trends",
     author: "Kevin Spacey",
     date: "12 July 2014",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
@@ -114,7 +114,7 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2016"
 
   }, {
-    title: "Beauty Trend Alert: Lush Cosmetics",
+    title: "All About Lush",
     author: "Kevin Spacey",
     date: "12 July 2015",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
@@ -138,7 +138,7 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2014"
 
 }, {
-    title: "Move Aside San Fran, Tech Found a New Home",
+    title: "Time to Move Aside, SanFran",
     author: "Kevin Spacey",
     date: "12 July 2013",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
