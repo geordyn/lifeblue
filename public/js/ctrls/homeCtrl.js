@@ -6,11 +6,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
 
 
   $scope.archives = [{
-    title: "The Sample Title",
+    title: "Let's Talk Depression",
     author: "Kevin Spacey",
     date: "12 July 2012",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/workout1.jpg",
+    imgurl: "../../styles/imgs/pug.jpeg",
     link: "https://geordyn.com",
     views: "10",
     comments: "123",
@@ -18,11 +18,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2012",
     tags: ["cool", "celebrity", "happy", "design"]
   }, {
-    title: "The Sample Title",
+    title: "This Year's Fall Trends",
     author: "Kevin Spacey",
     date: "12 July 2014",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/lifeblue1.jpg",
+    imgurl: "../../styles/imgs/cornfield.jpeg",
     link: "https://geordyn.com",
     views: "9",
     comments: "50",
@@ -30,11 +30,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2014"
 
   }, {
-    title: "The Sample Title",
+    title: "End of Summer Activities",
     author: "Kevin Spacey",
     date: "12 July 2016",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/paint.jpg",
+    imgurl: "../../styles/imgs/water.jpeg",
     link: "https://geordyn.com",
     views: "8",
     comments: "90",
@@ -42,11 +42,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2016"
 
   }, {
-    title: "The Sample Title",
+    title: "Are You Getting the Most Out of Technology?",
     author: "Kevin Spacey",
     date: "12 July 2013",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/flowers.jpg",
+    imgurl: "../../styles/imgs/watch.jpeg",
     link: "https://geordyn.com",
     views: "7",
     comments: "100",
@@ -54,11 +54,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2013"
 
   }, {
-    title: "The Sample Title",
+    title: "What Employers Want That You Don't Have",
     author: "Kevin Spacey",
     date: "12 July 2012",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/dog.jpg",
+    imgurl: "../../styles/imgs/suit.jpeg",
     link: "https://geordyn.com",
     views: "6",
     comments: "88",
@@ -66,11 +66,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2012"
 
   }, {
-    title: "The Sample Title",
+    title: "Bonfires, Beer, and Bacon",
     author: "Kevin Spacey",
     date: "12 July 2014",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/lifeblue1.jpg",
+    imgurl: "../../styles/imgs/fire.jpeg",
     link: "https://geordyn.com",
     views: "9",
     comments: "50",
@@ -78,11 +78,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2014"
 
 }, {
-    title: "The Sample Title",
+    title: "The Power of A Blueberry",
     author: "Kevin Spacey",
     date: "12 July 2012",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/pineapple.jpg",
+    imgurl: "../../styles/imgs/blueberries.jpeg",
     link: "https://geordyn.com",
     views: "535",
     comments: "454",
@@ -90,11 +90,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2012"
 
   }, {
-    title: "The Sample Title",
+    title: "Upcoming Shoe Trends 2017",
     author: "Kevin Spacey",
     date: "12 July 2014",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/dog.jpg",
+    imgurl: "../../styles/imgs/shoes.jpeg",
     link: "https://geordyn.com",
     views: "436",
     comments: "243",
@@ -102,11 +102,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2014"
 
   }, {
-    title: "The Sample Title",
+    title: "Thank The Skin You're In",
     author: "Kevin Spacey",
     date: "12 July 2016",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/pineapple.jpg",
+    imgurl: "../../styles/imgs/skin.jpeg",
     link: "https://geordyn.com",
     views: "5",
     comments: "235",
@@ -114,11 +114,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2016"
 
   }, {
-    title: "The Sample Title",
+    title: "Beauty Trend Alert: Lush Cosmetics",
     author: "Kevin Spacey",
     date: "12 July 2015",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/dog.jpg",
+    imgurl: "../../styles/imgs/lush.jpeg",
     link: "https://geordyn.com",
     views: "6",
     comments: "88",
@@ -126,11 +126,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2015"
 
   }, {
-    title: "The Sample Title",
+    title: "Travel Hot Spot: Croatia",
     author: "Kevin Spacey",
     date: "12 July 2014",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/dog.jpg",
+    imgurl: "../../styles/imgs/travel.jpeg",
     link: "https://geordyn.com",
     views: "436",
     comments: "243",
@@ -138,11 +138,11 @@ angular.module("lifeblue").controller("homeCtrl", function($scope, $state) {
     year: "2014"
 
 }, {
-    title: "The Sample Title",
+    title: "Move Aside San Fran, Tech Found a New Home",
     author: "Kevin Spacey",
     date: "12 July 2013",
     summary: "this is the summary. this is the summary. this is the summary. this is the summary.",
-    imgurl: "../../styles/imgs/pineapple.jpg",
+    imgurl: "../../styles/imgs/ggbridge.jpeg",
     link: "https://geordyn.com",
     views: "5",
     comments: "44",
