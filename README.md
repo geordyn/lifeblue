@@ -5,6 +5,7 @@ Beat is a web application created for a fictitious client to demonstrate my abil
 * AngularJS
 * Less
 * Gulp
+* JQuery
 
 ## Live Site
 [Beat]("https://lifeblue.herokuapp.com/#/home")
