@@ -16,5 +16,5 @@ Beat is a web application created for a fictitious client to demonstrate my abil
 
 ## Contact
 * email: geordyn.ader@gmail.com
-* linkedin: [linkedin.com/in/geordyn]("https://linkedin.com/in/geordyn")
-* portfolio: [geordyn.com]("http://geordyn.com")
+* linkedin: [linkedin.com/in/geordyn](https://linkedin.com/in/geordyn)
+* portfolio: [geordyn.com](http://geordyn.com)
