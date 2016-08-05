@@ -8,7 +8,7 @@ Beat is a web application created for a fictitious client to demonstrate my abil
 * JQuery
 
 ## Live Site
-[Beat]("https://lifeblue.herokuapp.com/#/home")
+[Beat](https://lifeblue.herokuapp.com/#/home)
 
 
 ## Known Issues
